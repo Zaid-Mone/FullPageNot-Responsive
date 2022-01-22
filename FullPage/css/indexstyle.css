@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background:url(../img/345330.jpg)
+}
+.header {
+    width: auto;
+    text-align: justify;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px 0 0 0;
+    padding: 10px 0;
+
+}
+ul li {
+    list-style-type: none;
+    background-color: inherit;
+    color: #eee;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+li h2 {
+    background: none;
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
+    background:white;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+.navs{
+    margin-left: 650px;
+}
+#btun{
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    background:#a1644a;
+    color: black;
+    border: 1px solid white;
+    text-transform: capitalize  ;
+ 
+    
+}
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 73vh;
+    background: none;
+    width: 100%;
+}
+.main h2 {
+    font-size: 4rem;
+    background: none;
+    color:rgb(189, 185, 185);
+}
+.main p{
+    font-size:1.5rem;
+    background: none;
+    color:tomato;
+    /* color:#f49f1c;    */
+}
+.main button{
+    padding:5px;    
+    color:black;
+    background: maroon;
+}
+.marq{
+    background: none;
+    font-size:2rem;
+    
+}
+#pic{
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    margin-left: -20px;
+}
+span {
+    background: none;
+    
+}
+.fot{
+    margin-top: 35px;
+    height: 84px;
+    background: none;
+    
+}
+
+.fot ul {
+    
+    background: none;
+    color:white;
+    font-size: 50px;
+    background: none;
+    margin-top:-60px ;
+}
+
+.fot ul li {
+    
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+.fot a {
+    background: none;
+}
+ .fot ul li a i {
+    
+    padding: 7px 7px;
+    color:white;
+    
+}
+#active{
+    
+    height: 30px;
+    border-radius: 999px;
+    background: #f49f1c;
+}
+#active:hover{
+    background: #eee;
+    color:black;
+}
+#sup{
+    height: 30px;
+   
+    
+}
+#sup:hover{
+    border-radius: 999px;
+    background: #f49f1c;
+}
+#con{
+    height: 30px;
+}
+#con:hover{
+    border-radius: 999px;
+    background: #f49f1c;
+}

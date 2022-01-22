@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #eee;
+}
+.container{
+    border: 1px solid black;
+    margin-top: 10%;
+    width: 30%;
+    height:390px;
+    box-shadow: 5px 10px #888888;   
+    /* background: url(../img/mountain-3840x2160-lake-trees-4k-16728.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+ h1{
+    text-transform: uppercase;
+    margin-left: 150px;
+}
+.form-group text-dark{
+    color:indigo;
+}
+.social{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    text-decoration: none;
+}

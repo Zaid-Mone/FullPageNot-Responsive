@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    text-align: justify ;
+    
+}
+body{
+     /* background: rgb(197, 197, 197); */
+     background: linear-gradient(90deg,rgb(230, 194, 194),rgb(170, 149, 149),rgb(116, 100, 100));
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 999px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    margin:0 15px;
+}
+
+.section{
+    border: 1px solid black;
+    width: 350px;
+    height:310px;
+    background-image: url(../img/SDLC-Cycle.jpg);
+    background-size: cover;
+}
+.head{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.heading{
+    font-family: emoji;
+}
+.sdlacpara{
+    text-align: justify;
+}
+.phse{
+    font-size: 1.5rem;
+}
+
+.container a{
+    text-decoration: none;
+    margin:-1px;
+    font-size:1.5rem;
+    color:chocolate
+ 
+}
+.container a:hover{
+    text-decoration: none;
+    color: firebrick;
+    border-bottom:1px solid tomato ;
+}
+
+footer{ 
+    background:#000;
+     color:#fff;
+     height:60px;
+}
+.footer-links{
+    display: flex;
+   justify-content: space-around; 
+}
+    
+.footer-links a:hover{
+    border-bottom: none;
+}
+
